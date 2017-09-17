@@ -11,6 +11,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
 Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'w0rp/ale'
 Plugin 'rking/ag.vim'
@@ -75,3 +76,6 @@ let g:move_key_modifier = 'C'
 " let g:ale_linters = {'javascript':  ['eslint']}
 let g:ale_fixers = {'javascript':  ['prettier']}
 " let g:ale_fix_on_save = 1
+
+"NERDTree
+map <C-n> :NERDTreeToggle<CR>
