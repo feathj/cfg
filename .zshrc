@@ -128,13 +128,6 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 # RPROPMT for vaulted
 export RPROMPT=$VAULTED_ENV
 
-# Canvas access token for sandbox
-export CANVAS_ACCESS_TOKEN="17~Z8L4NOIHKA082ak95lg5qpyVDXKN7eHkPq14csKlQumUjPsz8Gquf3IAT8nKij44"
-
-# Maven for hosted-data
-export MAVEN_PRIVATE_USERNAME="jfeatherstone"
-export MAVEN_PRIVATE_PASSWORD="AKCp2WWsfASNDFHJcKa3xD9orjFDNMUnXnJ4ArpgtzgN3jeRqAJATFgTh9JzHCB2xEv91y27Z"
-
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
