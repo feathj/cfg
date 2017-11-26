@@ -34,6 +34,9 @@ set hidden
 set hlsearch
 set incsearch
 
+" swapfile in .vim dir
+:set directory=$HOME/.vim/swapfiles//
+
 " backspace fix
 set backspace=indent,eol,start
 
@@ -42,6 +45,9 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
+
+" Disable stupid warning from go plugin
+let g:go_version_warning = 0
 
 " Theme stuff
 " https://github.com/chriskempson/base16-shell
