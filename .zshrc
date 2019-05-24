@@ -103,13 +103,9 @@ export PATH="/usr/local/sbin:$PATH"
 # CHRUBY 
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
-chruby ruby-2.3.3
+chruby ruby-2.6.3
 
 export TERM="xterm-256color"
-
-# GOLANG
-export GOPATH="$HOME/go"
-export PATH="$PATH:$GOPATH/bin"
 
 # NVIM
 export NVM_DIR="/Users/jfeatherstone/.nvm"
@@ -139,6 +135,3 @@ export DOCKER_MACHINE_NAME=dinghy
 
 # Openssl
 export PATH="/usr/local/opt/openssl/bin:$PATH"
-
-# Aristos
-export ARISTOS_HOME=/Users/jfeatherstone/aristos_home
